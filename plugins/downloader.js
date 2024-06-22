@@ -1345,8 +1345,8 @@ smd(
    return false;
  }
  smd({
-   pattern: "play",
-   alias: ["music"],
+   pattern: "songg",
+   alias: ["playy"],
    desc: "Sends info about the query(of youtube video/audio).",
    category: "downloader",
    filename: __filename,
@@ -1400,6 +1400,7 @@ smd(
  });
  smd({
    pattern: "sound",
+     alias: ["aine", "wasi","bott",
    desc: "Downloads ringtone.",
    category: "downloader",
    filename: __filename,
@@ -1413,7 +1414,7 @@ smd(
      if (_0x19c223.toString() == "NaN" || _0x19c223 < 1 || _0x19c223 > 160) {
        return _0x2ee3dd.reply("*_❌ Give a number between 1 to 160_*");
      }
-     let _0xf0331a = "https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/sound" + _0x19c223.toString() + ".mp3";
+     let _0xf0331a = "https://github.com/Itxxwasi/Tiktokmusic-API/raw/master/tiktokmusic/sound" + _0x19c223.toString() + ".mp3";
      let _0x2ba501 = await getBuffer(_0xf0331a);
      var _0x29fdd9 = {
        ...(await _0x2ee3dd.bot.contextInfo(Config.botname, "ᴛɪᴋᴛᴏᴋ ꜱᴏᴜɴᴅ " + _0x19c223))
@@ -1463,7 +1464,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://api-smd.onrender.com/api/ttdl2";
+       const apiUrl = "https://aemt.me/download/tiktokdl";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1505,7 +1506,7 @@ smd(
          );
        }
  
-       const apiUrl = `https://api.maher-zubair.tech/download/tiktok?url=${encodeURIComponent(
+       const apiUrl = `https://aemt.me/download/tiktokdl?url=${encodeURIComponent(
          tiktokUrl
        )}`;
        const response = await fetchJson(apiUrl);
@@ -1667,8 +1668,8 @@ smd(
    }
  );
  smd({
-   pattern: "song",
-   alias: ["audio"],
+   pattern: "play",
+   alias: ["audio","gana","songgg","song"],
    desc: "Downloads audio from youtube.",
    category: "downloader",
    filename: __filename,

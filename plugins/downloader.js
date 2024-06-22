@@ -1345,7 +1345,7 @@ smd(
    return false;
  }
  smd({
-   pattern: "songg",
+   pattern: "songgg",
    alias: ["playy"],
    desc: "Sends info about the query(of youtube video/audio).",
    category: "downloader",
@@ -1400,7 +1400,7 @@ smd(
  });
  smd({
    pattern: "sound",
-     alias: ["aine", "wasi","bott",
+     alias: ["aine", "wasi","bott"],
    desc: "Downloads ringtone.",
    category: "downloader",
    filename: __filename,

@@ -1,7 +1,7 @@
 {
   "name": "asta-md@2.5.0",
   "description": "Simple WhatsApp Bot",
-  "logo": "https://github.com/Astropeda/Asta-Md/blob/main/lib/assets/logo.png?raw=true",
+  "logo": "https://github.com/Itxxwasi/WASI-MD-V3/blob/main/lib/assets/logo.png?raw=true",
   "keywords": ["Asta-Md", "asta", "Asta-Bot"],
   "success_url": "/",
   "stack": "container",
@@ -111,7 +111,7 @@
       "required": false
     }
   },
-  "addons": [{ "plan": "heroku-postgresql:basic" }],
+  "addons": [{ "plan": "heroku-postgresql:essential-0" }],
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }

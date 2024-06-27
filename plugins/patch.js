@@ -268,7 +268,7 @@ astro_patch.smd(
         menuThemeFooter = "┃✵╰──────────────\n╰━━━━━━━━━━━━━━━┈⊷";
         menuThemeCategoryHeader = "╭─────────────┈⊷\n│「";
         menuThemeCategoryFooter = "」\n╰┬────────────┈⊷";
-        menuThemeCommandPrefix = "││◦➛";
+        menuThemeCommandPrefix = "││🇵🇰🙆‍♂️";
         menuThemeCommandFooter = "│╰────────────┈⊷\n╰─────────────┈⊷";
       } else if (
         menuThemeType === 2 ||
@@ -309,16 +309,17 @@ astro_patch.smd(
       const currentDate = message.date;
       let menuText = `
 ${menuThemeHeader}
-${menuThemeCommandPrefix} *ᴏᴡɴᴇʀ:* ${Config.ownername}
-${menuThemeCommandPrefix} *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
-${menuThemeCommandPrefix} *ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
-${menuThemeCommandPrefix} *ᴛɪᴍᴇ:* ${currentTime}
-${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
-${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
-${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
-${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
+${menuThemeCommandPrefix} *🇵🇰🙆‍♂️:* ${Config.ownername}
+${menuThemeCommandPrefix} *🇵🇰🙆‍♂️:* ${runtime(process.uptime())}
+${menuThemeCommandPrefix} *🇵🇰🙆‍♂️:* ${formatp(os.totalmem() - os.freemem())}
+${menuThemeCommandPrefix} *🇵🇰🙆‍♂️:* ${currentTime}
+${menuThemeCommandPrefix} *🇵🇰🙆‍♂️:* ${currentDate}
+${menuThemeCommandPrefix} *🇵🇰🙆‍♂️:* ${commands.length}
+${menuThemeCommandPrefix} *🇵🇰🙆‍♂️:* ${trend_usage}
+${menuThemeCommandPrefix} *🇵🇰🙆‍♂️:* ${database_info}
 ${menuThemeFooter}                         
-*ᴀsᴛᴀ ᴘᴀᴛᴄʜ 𝟸.5.𝟶*
+*🇵🇰🙆‍♂️ \n 𝐖𝐀𝐒𝐈 𝐌𝐃 𝐕2 \n 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐖𝐀𝐒𝐈 𝐓𝐄𝐂𝐇*
+
 ${readmore}`;
 
       for (const category in categorizedCommands) {

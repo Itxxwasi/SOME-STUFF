@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/Itxxwasi/WASI-MD-V3 /root/Itxxwasi
+RUN git clone https://github.com/Itxxwasi/WASI-MD-V2 /root/Itxxwasi
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force

@@ -1,4 +1,4 @@
-FROM quay.io/sampandey001/secktor
+FROM quay.io/wasitech/wasi-tech
 
 RUN git clone https://github.com/Itxxwasi/WASI-MD-V2 /root/Itxxwasi
 

@@ -733,3 +733,16 @@ smd({
 }, async (_0x1a01af, _0x1ac85a) => {
   await aitts(_0x1a01af, _0x1ac85a || _0x1a01af.reply_text);
 });
+
+smd({ on: "body" }, async(Void, citel) => {
+     if (Config.autoreaction === 'true') {
+         const emojis = ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '❣', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '🤗', '😊', '🎊', '🎉', '🎁', '🎈', '👋']
+         const emokis = emojis[Math.floor(Math.random() * (emojis.length))]
+         Void.sendMessage(citel.chat, {
+             react: {
+                 text: emokis,
+                 key: citel.key
+             }
+         })
+     }
+ })

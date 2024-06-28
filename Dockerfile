@@ -1,4 +1,5 @@
-FROM quay.io/wasitech/wasi-tech
+#FROM quay.io/wasitech/wasi-tech new version v3
+FROM quay.io/sampandey001/secktor
 
 RUN git clone https://github.com/Itxxwasi/WASI-MD-V3 /root/Itxxwasi
 
